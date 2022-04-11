@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+	    <title>Stats</title>
+	</head>
+	<body>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<h1 align="center" style="color:cornflowerblue">
+			<div>ФИО: Зиязетдинов Руслан Наилевич</div>
+		</h1>
+		<h2 align="center" style="color:orange">
+			<div>Группа: БИВ213</div>
+		</h2>
+		<h3 align="center" style="color:forestgreen">
+			<div>Дата и время генерации скрипта: {{time}}</div>
+		</h3>
+		<h2 align="center" >
+			<div>Zulip:</div>
+			<div>Суммарное количество сообщений: {{total_messages_zulip}}</div>
+			<div>Каналы: {{zulip_streams_names}}</div>
+			<div> {{first_plot_zulip}}</div>
+			<div>{{second_plot_zulip}}</div>
+		</h2>
+		<h2 align="center" >
+			<div>Jitsi: </div>
+			<div>Суммарное количество академических часов: {{total_sessions_jitsi}}</div>
+			<div>Комнаты: {{jitsi_rooms}}</div>
+			<div> {{first_plot_jitsi}}</div>
+			<div> {{second_plot_jitsi}}</div>
+		</h2>
+		<h2 align="center" >
+			<div>Taiga:</div>
+			<div>Общее количество юзерстори в эпике: {{total_userstories}}</div>
+			<div>Общее количество задач: {{total_tasks}}</div>
+			<div> {{plot_taiga}}</div>
+		</h2>
+		<h2 align="center" >
+			<div>Gitlab:</div>
+			<div> Общее количество коммитов: {{total_commits}}</div>
+			<div> {{first_plot_gitlab}}</div>
+			<div> {{second_plot_gitlab}}</div>
+		</h2>
+	</body>
+</html>
